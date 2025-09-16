@@ -18,3 +18,11 @@ fun ladoverde(modifier: Modifier = Modifier){
             .fillMaxHeight()
     )
 }
+@Composable
+fun ladoblanco(modifier: Modifier = Modifier){
+        Box(
+            modifier = modifier
+                .background(Color.White)
+                .fillMaxHeight()
+        )
+    }

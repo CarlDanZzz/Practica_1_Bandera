@@ -27,6 +27,7 @@ class MainActivity : ComponentActivity() {
                             .padding(innerPadding)
                     ) {
                         ladoverde(Modifier.weight(1f))
+                        ladoblanco(Modifier.weight(1f))
 
                     }
                 }
