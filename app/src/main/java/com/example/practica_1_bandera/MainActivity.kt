@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         ladoverde(Modifier.weight(1f))
                         ladoblanco(Modifier.weight(1f))
+                        ladorojo(Modifier.weight(1f))
 
                     }
                 }
