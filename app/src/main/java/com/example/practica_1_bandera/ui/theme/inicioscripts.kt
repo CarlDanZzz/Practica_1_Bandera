@@ -26,9 +26,19 @@ fun ladoblanco(modifier: Modifier = Modifier){
             modifier = modifier
                 .background(Color.White)
                 .fillMaxHeight()
-        ) {
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.bandera),
+                contentDescription = "banderaa",
+                modifier = Modifier
+                    .align(Alignment.Center)
+
+
+            )
         }
     }
+
 
 @Composable
 fun ladorojo(modifier: Modifier = Modifier){
