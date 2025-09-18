@@ -13,40 +13,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 
 @Composable
-fun ladoverde(modifier: Modifier = Modifier){
+fun franjanegra(modifier: Modifier = Modifier){
     Box(
         modifier = modifier
-            .background(Color.Green)
+            .background(Color.Black)
             .fillMaxHeight()
     )
 }
-@Composable
-fun ladoblanco(modifier: Modifier = Modifier){
-        Box(
-            modifier = modifier
-                .background(Color.White)
-                .fillMaxHeight()
-        )
-        {
-            Image(
-                painter = painterResource(id = R.drawable.bandera),
-                contentDescription = "banderaa",
-                modifier = Modifier
-                    .align(Alignment.Center)
 
-
-            )
-        }
-    }
-
-
-@Composable
-fun ladorojo(modifier: Modifier = Modifier){
-    Box(
-        modifier = modifier
-            .background(Color.Red)
-            .fillMaxHeight()
-    )
-}
 
 

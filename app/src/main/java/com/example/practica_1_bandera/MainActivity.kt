@@ -21,18 +21,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Practica_1_BanderaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Row(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(innerPadding)
-                    ) {
-                        ladoverde(Modifier.weight(1f))
-                        ladoblanco(Modifier.weight(1f))
-                        ladorojo(Modifier.weight(1f))
 
-                    }
-                }
-            }
+            } 
         }
     }
 }
@@ -54,4 +44,5 @@ fun GreetingPreview() {
     Practica_1_BanderaTheme {
         Greeting("Android")
     }
+}
 }
