@@ -33,6 +33,11 @@ class MainActivity : ComponentActivity() {
                                 .fillMaxWidth()
                                 .weight(1f)
                         )
+                        franjaroja(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .weight(1f)
+                        )
 
                     }
             } 
