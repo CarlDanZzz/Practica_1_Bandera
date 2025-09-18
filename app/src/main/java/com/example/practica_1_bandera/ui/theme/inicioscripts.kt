@@ -28,6 +28,14 @@ fun franjaroja(modifier: Modifier = Modifier){
             .fillMaxHeight()
     )
 }
+@Composable
+fun franjaamarilla(modifier: Modifier = Modifier){
+    Box(
+        modifier = modifier
+            .background(Color.Yellow)
+            .fillMaxHeight()
+    )
+}
 
 
 

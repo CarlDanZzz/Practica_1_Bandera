@@ -38,6 +38,11 @@ class MainActivity : ComponentActivity() {
                                 .fillMaxWidth()
                                 .weight(1f)
                         )
+                        franjaamarilla(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .weight(1f)
+                        )
 
                     }
             } 
