@@ -35,14 +35,7 @@ fun franjablanca(modifier: Modifier = Modifier) {
     }
 }
 
-@Composable
-fun franjaamarilla(modifier: Modifier = Modifier){
-    Box(
-        modifier = modifier
-            .background(Color.Yellow)
-            .fillMaxHeight()
-    )
-}
+
 
 
 

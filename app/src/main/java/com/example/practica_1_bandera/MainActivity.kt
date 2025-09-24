@@ -28,17 +28,17 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                     ){
-                        franjanegra(
+                        franjaazul(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .weight(1f)
                         )
-                        franjaroja(
+                        franjablanca(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .weight(1f)
                         )
-                        franjaamarilla(
+                        franjaazul(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .weight(1f)
