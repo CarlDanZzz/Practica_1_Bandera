@@ -21,10 +21,10 @@ fun franjaazul(modifier: Modifier = Modifier){
     )
 }
 @Composable
-fun franjaroja(modifier: Modifier = Modifier){
+fun franjablanca(modifier: Modifier = Modifier){
     Box(
         modifier = modifier
-            .background(Color.Red)
+            .background(Color.White)
             .fillMaxHeight()
     )
 }
