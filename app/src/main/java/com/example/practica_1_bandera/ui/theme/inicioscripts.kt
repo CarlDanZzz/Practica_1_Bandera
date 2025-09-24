@@ -21,13 +21,20 @@ fun franjaazul(modifier: Modifier = Modifier){
     )
 }
 @Composable
-fun franjablanca(modifier: Modifier = Modifier){
+fun franjablanca(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .background(Color.White)
             .fillMaxHeight()
-    )
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.sol),
+            contentDescription = "Sol",
+            modifier = Modifier.align(Alignment.Center)
+        )
+    }
 }
+
 @Composable
 fun franjaamarilla(modifier: Modifier = Modifier){
     Box(
