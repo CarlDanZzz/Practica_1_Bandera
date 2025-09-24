@@ -13,10 +13,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 
 @Composable
-fun franjanegra(modifier: Modifier = Modifier){
+fun franjaazul(modifier: Modifier = Modifier){
     Box(
         modifier = modifier
-            .background(Color.Black)
+            .background(Color.Blue)
             .fillMaxHeight()
     )
 }
