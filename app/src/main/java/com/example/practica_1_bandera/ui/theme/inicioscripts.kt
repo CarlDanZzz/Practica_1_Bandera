@@ -21,38 +21,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun azul(modifier: Modifier = Modifier) {
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .background(Color.Blue)
-    )
-}
-
-@Composable
-fun espacio(modifier: Modifier = Modifier) {
-    Box(
+fun franjablanca(modifier: Modifier = Modifier){
+    Spacer(
         modifier = modifier
             .fillMaxWidth()
             .background(Color.White)
     )
-}
-@Composable
-fun triangulo(){
-    Box(
-        modifier = Modifier
-            .fillMaxHeight()
-            .width(250.dp)
-            .clip(TriangleShape)
-            .background(Color.Red)
-    )
-}
-
-val TriangleShape = GenericShape { size, _ ->
-    moveTo(0f, 0f)
-    lineTo(size.width, size.height / 2)
-    lineTo(0f, size.height)
-    close()
 }
 
 
