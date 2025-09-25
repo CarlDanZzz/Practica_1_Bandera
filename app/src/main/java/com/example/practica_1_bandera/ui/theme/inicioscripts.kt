@@ -16,46 +16,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun fondo(){
+fun azul(){
     Box(modifier = Modifier
         .fillMaxSize()
-        .background(Color.Red)
-    )
+        .background(Color.Blue))
 }
 
-@Composable
-fun lineavertical() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        Spacer(
-            modifier = Modifier
-                .width(30.dp)
-                .fillMaxHeight()
-                .background(Color.White)
-
-
-        )
-    }
-}
-
-@Composable
-fun lineahorizontal(){
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-    ){
-        Spacer(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(50.dp)
-                .background(Color.White)
-                .align(Alignment.CenterStart)
-        )
-    }
-}
 
 
 
