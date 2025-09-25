@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
             Practica_1_BanderaTheme {
             fondo()
                 lineavertical()
-                lineahorizontal
+                lineahorizontal()
             }
         }
     }
