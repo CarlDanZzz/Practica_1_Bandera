@@ -43,6 +43,11 @@ fun cuadroazul(modifier: Modifier = Modifier){
             .background(Color.Blue)
     )
 }
-
+@Composable
+fun estrella(modifier: Modifier = Modifier){
+    Box(modifier=modifier
+        .background(Color.White, shape = androidx.compose.foundation.shape.CircleShape))
+}
+5to
 
 
