@@ -16,10 +16,21 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun azul(){
-    Box(modifier = Modifier
-        .fillMaxSize()
-        .background(Color.Blue))
+fun azul(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .background(Color.Blue)
+    )
+}
+
+@Composable
+fun espacio(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .background(Color.White)
+    )
 }
 
 
