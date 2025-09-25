@@ -14,6 +14,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.GenericShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.unit.dp
 
 @Composable
 fun azul(modifier: Modifier = Modifier) {
@@ -32,7 +37,23 @@ fun espacio(modifier: Modifier = Modifier) {
             .background(Color.White)
     )
 }
+@Composable
+fun triangulo(){
+    Box(
+        modifier = Modifier
+            .fillMaxHeight()
+            .width(250.dp)
+            .clip(TriangleShape)
+            .background(Color.Red)
+    )
+}
 
+val TriangleShape = GenericShape { size, _ ->
+    moveTo(0f, 0f)
+    lineTo(size.width, size.height / 2)
+    lineTo(0f, size.height)
+    close()
+}
 
 
 

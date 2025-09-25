@@ -36,10 +36,13 @@ class MainActivity : ComponentActivity() {
            espacio(Modifier.weight(1f))
            azul(Modifier.weight(1f))
        }
+                triangulo()
             }
         }
     }
         }
+
+
 
 
 
