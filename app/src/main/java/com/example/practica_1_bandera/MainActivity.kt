@@ -29,7 +29,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Practica_1_BanderaTheme {
-
+            fondo()
+                lineavertical()
+                lineahorizontal
             }
         }
     }
