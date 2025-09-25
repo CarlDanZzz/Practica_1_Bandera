@@ -28,6 +28,14 @@ fun franjablanca(modifier: Modifier = Modifier){
             .background(Color.White)
     )
 }
+@Composable
+fun franjaroja(modifier: Modifier = Modifier){
+    Spacer(
+        modifier = modifier
+            .fillMaxWidth()
+            .background(Color.Red)
+    )
+}
 
 
 
