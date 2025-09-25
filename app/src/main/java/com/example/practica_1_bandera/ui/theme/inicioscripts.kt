@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,27 +14,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 
 @Composable
-fun franjaazul(modifier: Modifier = Modifier){
+fun rowroja(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
-            .background(Color.Blue)
-            .fillMaxHeight()
+            .fillMaxWidth()
+            .background(Color.Red)
     )
 }
-@Composable
-fun franjablanca(modifier: Modifier = Modifier) {
-    Box(
-        modifier = modifier
-            .background(Color.White)
-            .fillMaxHeight()
-    ) {
-        Image(
-            painter = painterResource(id = R.drawable.sol),
-            contentDescription = "Sol",
-            modifier = Modifier.align(Alignment.Center)
-        )
-    }
-}
+
 
 
 
