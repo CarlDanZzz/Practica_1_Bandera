@@ -36,6 +36,13 @@ fun franjaroja(modifier: Modifier = Modifier){
             .background(Color.Red)
     )
 }
+@Composable
+fun cuadroazul(modifier: Modifier = Modifier){
+    Box(
+        modifier = modifier
+            .background(Color.Blue)
+    )
+}
 
 
 
