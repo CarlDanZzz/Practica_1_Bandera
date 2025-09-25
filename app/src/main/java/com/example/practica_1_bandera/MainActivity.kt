@@ -9,12 +9,14 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.example.practica_1_bandera.ui.theme.Practica_1_BanderaTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,6 +32,10 @@ class MainActivity : ComponentActivity() {
                             .padding(innerPadding)
                     ) {
                         rowroja(Modifier.weight(1f))
+                        Spacer(Modifier.height(30.dp))
+                        rowroja(Modifier.weight(1f))
+
+
                     }
                 }
             }
