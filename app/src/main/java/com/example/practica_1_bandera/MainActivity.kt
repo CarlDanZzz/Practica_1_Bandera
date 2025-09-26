@@ -29,18 +29,13 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Practica_1_BanderaTheme {
-       Column(modifier = Modifier.fillMaxSize()){
-           azul(Modifier.weight(1f))
-           espacio(Modifier.weight(1f))
-           azul(Modifier.weight(1f))
-           espacio(Modifier.weight(1f))
-           azul(Modifier.weight(1f))
+            mejicoconstraint()
        }
-                triangulo()
+
             }
         }
     }
-        }
+
 
 
 
